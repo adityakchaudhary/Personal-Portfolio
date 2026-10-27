@@ -943,41 +943,6 @@
   text-align: right;
 }
 
-.player {
-  position: fixed;
-  z-index: 2;
-  bottom: -35px;
-  left: 50%;
-  display: flex;
-  width: 156px;
-  height: 54px;
-  align-items: flex-start;
-  justify-content: center;
-  gap: 8px;
-  padding-top: 10px;
-  background: #202124;
-  border: 1px solid #45464a;
-  border-radius: 18px 18px 0 0;
-  box-shadow: 0 0 0 4px #202124;
-  transform: translateX(-50%);
-}
-
-.player span {
-  width: 29px;
-  height: 3px;
-  margin-top: 3px;
-  background: #66686d;
-  border-radius: 3px;
-}
-
-.player i {
-  width: 7px;
-  height: 7px;
-  margin-top: 1px;
-  background: #73757b;
-  border-radius: 50%;
-}
-
 @media (max-width: 640px) {
   .site {
     width: min(100% - 36px, 460px);
