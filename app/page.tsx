@@ -610,12 +610,6 @@ export default function Home() {
           &copy; {new Date().getFullYear()} Aditya Kumar Chaudhary
         </p>
       </footer>
-      <div className={styles.player} aria-hidden="true">
-        <span />
-        <i />
-        <i />
-        <i />
-      </div>
     </main>
   )
 }
